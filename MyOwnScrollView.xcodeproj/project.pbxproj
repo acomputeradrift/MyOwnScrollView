@@ -15,6 +15,7 @@
 		7D69D2822121F0C700B9C73B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D69D2812121F0C700B9C73B /* main.m */; };
 		7D69D28C2121F0C700B9C73B /* MyOwnScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D69D28B2121F0C700B9C73B /* MyOwnScrollViewTests.m */; };
 		7D69D2972121F0C700B9C73B /* MyOwnScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D69D2962121F0C700B9C73B /* MyOwnScrollViewUITests.m */; };
+		7D69D2A62121FB0700B9C73B /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D69D2A52121FB0700B9C73B /* MyScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7D69D2922121F0C700B9C73B /* MyOwnScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyOwnScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D69D2962121F0C700B9C73B /* MyOwnScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyOwnScrollViewUITests.m; sourceTree = "<group>"; };
 		7D69D2982121F0C700B9C73B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D69D2A42121FB0700B9C73B /* MyScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		7D69D2A52121FB0700B9C73B /* MyScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				7D69D2732121F0C600B9C73B /* AppDelegate.m */,
 				7D69D2752121F0C600B9C73B /* ViewController.h */,
 				7D69D2762121F0C600B9C73B /* ViewController.m */,
+				7D69D2A42121FB0700B9C73B /* MyScrollView.h */,
+				7D69D2A52121FB0700B9C73B /* MyScrollView.m */,
 				7D69D2782121F0C600B9C73B /* Main.storyboard */,
 				7D69D27B2121F0C700B9C73B /* Assets.xcassets */,
 				7D69D27D2121F0C700B9C73B /* LaunchScreen.storyboard */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D69D2772121F0C600B9C73B /* ViewController.m in Sources */,
+				7D69D2A62121FB0700B9C73B /* MyScrollView.m in Sources */,
 				7D69D2822121F0C700B9C73B /* main.m in Sources */,
 				7D69D2742121F0C600B9C73B /* AppDelegate.m in Sources */,
 			);

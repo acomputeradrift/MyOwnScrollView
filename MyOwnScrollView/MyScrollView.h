@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MyScrollView.h
 //  MyOwnScrollView
 //
 //  Created by Jamie on 2018-08-13.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MyScrollView.h"
 
-@interface ViewController : UIViewController
-
+@interface MyScrollView : UIView
 
 @end
-
